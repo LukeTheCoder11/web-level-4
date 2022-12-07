@@ -10,7 +10,7 @@ $(document).ready(function(){
           });
     });
 
-    $("#uni-name-btn").html(" Universitys in " + countryName );
+    $("#uni-name-btn").html(" Universitys in " + $(".target").find(":selected").text() );
 
     
 
