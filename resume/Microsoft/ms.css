@@ -1,0 +1,21 @@
+.center-cols{
+    text-align: center;
+}
+.row{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: black;
+}
+.header a{
+    margin-left: 15px;
+    margin-bottom: 5px;
+    
+}

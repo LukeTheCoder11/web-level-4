@@ -1,0 +1,103 @@
+.header{
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.startButton{
+    width: 1000px;
+    margin-bottom: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.game-container{
+    width: 1000px;
+    height: auto;
+    background-image: url(sky_background.gif);
+    background-size: 1000px 400px;
+    position: relative;
+    margin: auto;
+}
+.game{
+    width: 1000px;
+    height: 400px;
+    border: 1px solid black;
+    position: relative;
+    margin: auto;
+}
+#scorepanel{
+    float: right;
+    position: relative;
+    top: 10px;
+}
+#dino{
+    width: 100px;
+    height: 100px;
+    background-image: url(Plane.gif);
+    background-size: 100px 100px;
+    position: relative;
+    top: 300px;
+    z-index: 9;
+}
+#cactus{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 220px;
+    left: 920px;
+    background-image: url(building.webp);
+    background-size: 80px 80px;
+}
+#audioPlayer{
+    display: none;
+}
+.jump{
+    animation: jump 0.5s linear;
+}
+.cactusMove{
+    animation: block 2.0s infinite linear;
+}
+@keyframes jump {
+    0% {
+        top: 300px;
+    }
+    10% {
+        top: 260px;
+    }
+    20% {
+        top: 220px;
+    }
+    30% {
+        top: 180px;
+    }
+    40% {
+        top: 140px;
+    }
+    50% {
+        top: 100px;
+    }
+    60% {
+        top: 140px;
+    }
+    70% {
+        top: 180px;
+    }
+    80% {
+        top: 220px;
+    }
+    90% {
+        top: 260px;
+    }
+    100% {
+        top: 300px;
+    }
+}
+
+@keyframes block {
+    0% {
+        left: 920px;
+    }
+    100% {
+        left: -80px;
+    }
+}
